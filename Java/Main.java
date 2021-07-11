@@ -1,5 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        Car car = new Car("AMQ123", new Account("juan", "JUAN123"));
+        car.printDataCard();
     }
 }
